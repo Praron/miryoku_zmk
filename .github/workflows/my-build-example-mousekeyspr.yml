@@ -3,6 +3,7 @@
 
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 
+# // Doesn't work here, change in source !!!
 #define U_MOUSE_MOVE_MAX 2500
 #define U_MOUSE_SCROLL_MAX 30
 #undef MOVE_UP
@@ -21,6 +22,9 @@
 #define SCROLL_DOWN SCROLL_Y(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_LEFT SCROLL_X(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_RIGHT SCROLL_X(U_MOUSE_SCROLL_MAX)
+
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1250
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 
 name: "My Build Example mousekeyspr"
